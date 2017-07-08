@@ -20,7 +20,7 @@ if __name__ == '__main__':
         elif cmd == 'close':
             exit()
         elif cmd=='play':
-            rawname = raw_input('input music name')
+            rawname = raw_input('input music name\n')
             name = rawname.strip(' ')
             pygame.mixer.music.load(name)
             pygame.mixer.music.play()
