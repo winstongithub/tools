@@ -18,7 +18,7 @@ if __name__ == '__main__':
             pygame.mixer.music.unpause()
             continue
         elif cmd == 'close':
-            exit()
+            break
         elif cmd=='play':
             rawname = raw_input('input music name\n')
             name = rawname.strip(' ')
