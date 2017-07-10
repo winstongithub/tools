@@ -1,3 +1,4 @@
+#coding:utf-8
 import sqlite3
 import sys
 import io
@@ -9,9 +10,15 @@ def init( conn ):
     cursor.close()
     return lines
 def wordloop( lines ):
-    for line in lines:
-        print line[1]#.decode('utf-8').encode('gb2312')
-        a=input()
+    index = 0
+    while index < len(lines):
+        line = lines[index]
+        print line[1]
+        inputword=raw_input()
+        if inputword == line[0]:
+            index = index+1
+        else:
+            print line[0]
 
 if __name__ == '__main__':
     conn = sqlite3.connect('db/dict.db')

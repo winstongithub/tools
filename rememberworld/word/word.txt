@@ -2635,7 +2635,7 @@ reflect vt.反射；反映；思考
 reflection n.反射；映象；反映 
 reflexion n.反射；映象；反映 
 reform vt.&n.改革，改良 
-refresh刷新 vt.使清新vi.恢复精神 
+refresh 刷新 vt.使清新vi.恢复精神 
 refreshment n.茶点，点心，便餐 
 refrigerator n.冰箱，冷藏库 
 refuge n.避难，庇护；庇护者 
@@ -3196,8 +3196,7 @@ super a.极好的，超级的
 superficial a.表面的；肤浅的 
 superior a.较高的；优越的 
 supermarket n.超级市场 
-supplement n.&v
-t.增补，补充 
+supplement n.&vt.增补，补充 
 supply vt.&n.供给，供应 
 support vt.支撑；支持；供养 
 suppose vt.猜想；假定；让 
@@ -3504,8 +3503,7 @@ valid a.有效的；正当的
 valley n.(山)谷，溪谷；流域 
 valuable a.值钱的；有价值的 
 value n.价值；价格 vt.评价 
-van n.大篷车，运
-货车 
+van n.大篷车，运货车 
 vanish vi.突然不见，消失 
 vanity n.虚荣心，虚夸 
 vapour n.汽，蒸气 
