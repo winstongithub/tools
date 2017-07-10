@@ -29,10 +29,10 @@ def initdict(lines):
             word = parm[0]
             if not haveword(word):
                 definition=''
-                for i in range(1,len(word)):
-                    definition = definition + word[i]
+                for i in range(1,len(parm)):
+                    definition = definition + parm[i]
             
-                sql = 'insert into dict values ( "{0}" ,"{1}",NULL,"{2}",{3})'.format(word,definition,1,time.time())
+                sql = 'insert into dict values ( "{0}" ,"{1}",NULL,"{2}",{3})'.format(word,definition.decode('gbk').encode('utf-8'),1,time.time())
                 saveword(sql)
                 current += 1
                 continue
@@ -43,7 +43,7 @@ def initdict(lines):
 
 
 if __name__ == '__main__':
-    f=open('word.txt','r')
+    f=open('word/word.txt','r')
     lines=f.readlines()
     initdict(lines)
     f.close()

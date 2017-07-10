@@ -1804,8 +1804,7 @@ legal a.法律的；合法的
 legend n.传说，传奇 
 leisure n.空闲时间；悠闲 
 lemon n.柠檬，柠檬树 
-length n.长，长度
-；一段 
+length n.长，长度；一段 
 lens n.透镜，镜片；镜头 
 less a.更少的 ad.更少地 
 lessen vt.减少，减轻；缩小 
