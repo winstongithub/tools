@@ -1190,7 +1190,7 @@ feather n.羽毛；翎毛；羽状物
 feature n.特征，特色；面貌 
 February n.二月 
 federal a.联邦的；联盟的 
-fee n.?
+fee 	n.小费
 feeble a.虚弱的；微弱的 
 feed vt.喂(养) vi.吃饲料 
 feedback n.回授，反馈，反应 
